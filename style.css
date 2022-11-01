@@ -222,7 +222,7 @@ form .btn{
   text-align: center;
   margin-right: -35px;
 }
-@media all and (max-width:768px){
+@media all and (max-width:480px){
   section div{
     width: 80%;
     padding-top: 2em;
