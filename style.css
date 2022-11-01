@@ -123,7 +123,11 @@ h1{
 }
 .section-text{
   text-align: center;
+  line-height: 1.5em;
+}
+.section-text1{
   margin: auto 2.5em;
+  text-align: center;
   line-height: 1.5em;
 }
 .samples{
@@ -225,6 +229,22 @@ form .btn{
   text-align: center;
   margin-right: -35px;
 }
+.footer1{
+display: flex;
+background-color: #222222;
+color: aliceblue;
+width: 100%;
+height: 3em;
+}
+.elem{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.elem1{
+  flex-direction: column;
+}
+
 @media all and (max-width:550px){
   section div{
     width: 80%;
@@ -234,6 +254,7 @@ form .btn{
   .story-section, .samples, .contact-section, .featured{
     display: flex;
     flex-direction: column;
+    grid-template-columns: repeat(autp-fit, minmax(200px, auto));
   }
   .featured{
     width: 80%;
@@ -252,4 +273,11 @@ form .btn{
   .work a{
     font-size: 10px;
   }
+.poza{
+  max-width: 250px;
+  max-height: 250px;
+}
+.footer1{
+  flex-direction: column;
+}
 }
