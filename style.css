@@ -233,7 +233,7 @@ form .btn{
     flex-direction: column;
   }
   .featured{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
   }
   .section-text h2{
@@ -247,9 +247,5 @@ form .btn{
   }
   .work a{
     font-size: 10px;
-  }
-  .work{
-    width:280px;
-    height:280px;
   }
 }
