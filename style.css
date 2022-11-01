@@ -224,7 +224,7 @@ form .btn{
 }
 @media all and (max-width:480px){
   section div{
-    width: 80%;
+    width: 50%;
     padding-top: 2em;
     padding-bottom: 2em;
   }
