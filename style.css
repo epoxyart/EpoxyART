@@ -125,6 +125,11 @@ h1{
   text-align: center;
   line-height: 1.5em;
 }
+.section-text1{
+  margin: auto 2.5em;
+  text-align: center;
+  line-height: 1.5em;
+}
 .samples{
   flex-direction: column;
   text-align: center;
