@@ -248,4 +248,8 @@ form .btn{
   .work a{
     font-size: 10px;
   }
+  .work{
+    width:280px;
+    height:280px;
+  }
 }
