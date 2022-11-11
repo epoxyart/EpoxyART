@@ -190,14 +190,17 @@ padding: 10px 20px;
   margin-bottom: 25px;
 }
 .maimulteprod{
-  position: relative;
-  flex-direction:column-reverse;
-  display: grid;
-  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+
 }
 .flexflex{
 display: flex;
-
+padding-top:70px;
+justify-content: space-between;
+width: 1300px;
 }
 .fisierproduse:hover .overlay{
   height: 100%;
